@@ -56,7 +56,7 @@
     <!-- ├── aradu.V14167.gnm1.ann1.cxSM.pathway.tsv -->
     <!-- ├── aradu.V14167.gnm1.ann1.cxSM.protein.faa -->
     <!-- └── aradu.V14167.gnm1.ann1.cxSM.transcript.fna -->
-    <source name="aradu.V14167.gnm1.ann1.cxSM.gene_models_main.gff3" type="lis-gff" dump="true">
+    <source name="aradu.V14167.gnm1.ann1.cxSM.gene_models_main" type="lis-gff" dump="true">
       <property name="gff3.dataSourceName" value="LIS Datastore"/>
       <property name="gff3.dataSourceUrl" value="https://legumeinfo.org/data/v2/"/>
       <property name="gff3.dataSourceDescription" value="A collaborative, community resource to facilitate crop improvement by integrating genetic, genomic, and trait data across legume species."/>
@@ -69,7 +69,7 @@
       <property name="gff3.strainIdentifier" value="V14167"/>
       <property name="src.data.dir" location="/data/v2/Arachis/duranensis/annotations/V14167.gnm1.ann1.cxSM"/>
     </source>
-    <source name="aradu.V14167.gnm1.ann1.cxSM.cds.fna" type="lis-fasta" dump="true">
+    <source name="aradu.V14167.gnm1.ann1.cxSM.cds" type="lis-fasta" dump="true">
       <property name="lis-fasta.dataSetTitle" value="aradu.V14167.gnm1.ann1.cxSM"/>
       <property name="lis-fasta.dataSetUrl" value="https://legumeinfo.org/data/v2/Arachis/duranensis/annotations/V14167.gnm1.ann1.cxSM/"/>
       <property name="lis-fasta.dataSetDescription" value="aradu.V14167.gnm1.ann1 annotation"/>
@@ -83,7 +83,7 @@
       <property name="lis-fasta.includes" value="aradu.V14167.gnm1.ann1.cxSM.cds.fna"/>
       <property name="src.data.dir" location="/data/v2/Arachis/duranensis/annotations/V14167.gnm1.ann1.cxSM"/>
     </source>
-    <source name="aradu.V14167.gnm1.ann1.cxSM.protein.faa" type="lis-fasta" dump="true">
+    <source name="aradu.V14167.gnm1.ann1.cxSM.protein" type="lis-fasta" dump="true">
       <property name="lis-fasta.dataSetTitle" value="aradu.V14167.gnm1.ann1.cxSM"/>
       <property name="lis-fasta.dataSetUrl" value="https://legumeinfo.org/data/v2/Arachis/duranensis/annotations/V14167.gnm1.ann1.cxSM/"/>
       <property name="lis-fasta.dataSetDescription" value="aradu.V14167.gnm1.ann1 annotation"/>
@@ -97,7 +97,7 @@
       <property name="lis-fasta.includes" value="aradu.V14167.gnm1.ann1.cxSM.protein.faa"/>
       <property name="src.data.dir" location="/data/v2/Arachis/duranensis/annotations/V14167.gnm1.ann1.cxSM"/>
     </source>
-    <source name="aradu.V14167.gnm1.ann1.cxSM.transcript.fna" type="lis-fasta" dump="true">
+    <source name="aradu.V14167.gnm1.ann1.cxSM.transcript" type="lis-fasta" dump="true">
       <property name="lis-fasta.dataSetTitle" value="aradu.V14167.gnm1.ann1.cxSM"/>
       <property name="lis-fasta.dataSetUrl" value="https://legumeinfo.org/data/v2/Arachis/duranensis/annotations/V14167.gnm1.ann1.cxSM/"/>
       <property name="lis-fasta.dataSetDescription" value="aradu.V14167.gnm1.ann1 annotation"/>
@@ -184,7 +184,7 @@
     <!-- ├── araip.K30076.gnm1.ann1.J37m.pathway.tsv -->
     <!-- ├── araip.K30076.gnm1.ann1.J37m.protein.faa -->
     <!-- └── araip.K30076.gnm1.ann1.J37m.transcript.fna -->
-    <source name="araip.K30076.gnm1.ann1.J37m.gene_models_main.gff3" type="lis-gff" dump="true">
+    <source name="araip.K30076.gnm1.ann1.J37m.gene_models_main" type="lis-gff" dump="true">
       <property name="gff3.dataSourceName" value="LIS Datastore"/>
       <property name="gff3.dataSourceUrl" value="https://legumeinfo.org/data/v2/"/>
       <property name="gff3.dataSourceDescription" value="A collaborative, community resource to facilitate crop improvement by integrating genetic, genomic, and trait data across legume species."/>
@@ -197,7 +197,7 @@
       <property name="gff3.strainIdentifier" value="K30076"/>
       <property name="src.data.dir" location="/data/v2/Arachis/ipaensis/annotations/K30076.gnm1.ann1.J37m"/>
     </source>
-    <source name="araip.K30076.gnm1.ann1.J37m.cds.fna" type="lis-fasta" dump="true">
+    <source name="araip.K30076.gnm1.ann1.J37m.cds" type="lis-fasta" dump="true">
       <property name="lis-fasta.dataSetTitle" value="araip.K30076.gnm1.ann1.J37m"/>
       <property name="lis-fasta.dataSetDescription" value="araip.K30076.gnm1.ann1 annotation"/>
       <property name="lis-fasta.dataSetVersion" value="gnm1.ann1"/>
@@ -212,7 +212,7 @@
       <property name="lis-fasta.includes" value="araip.K30076.gnm1.ann1.J37m.cds.fna"/>
       <property name="src.data.dir" location="/data/v2/Arachis/ipaensis/annotations/K30076.gnm1.ann1.J37m"/>
     </source>
-    <source name="araip.K30076.gnm1.ann1.J37m.protein.faa" type="lis-fasta" dump="true">
+    <source name="araip.K30076.gnm1.ann1.J37m.protein" type="lis-fasta" dump="true">
       <property name="lis-fasta.dataSetTitle" value="araip.K30076.gnm1.ann1.J37m"/>
       <property name="lis-fasta.dataSetDescription" value="araip.K30076.gnm1.ann1 annotation"/>
       <property name="lis-fasta.dataSetVersion" value="gnm1.ann1"/>
@@ -227,7 +227,7 @@
       <property name="lis-fasta.includes" value="araip.K30076.gnm1.ann1.J37m.protein.faa"/>
       <property name="src.data.dir" location="/data/v2/Arachis/ipaensis/annotations/K30076.gnm1.ann1.J37m"/>
     </source>
-    <source name="araip.K30076.gnm1.ann1.J37m.transcript.fna" type="lis-fasta" dump="true">
+    <source name="araip.K30076.gnm1.ann1.J37m.transcript" type="lis-fasta" dump="true">
       <property name="lis-fasta.dataSetTitle" value="araip.K30076.gnm1.ann1.J37m"/>
       <property name="lis-fasta.dataSetDescription" value="araip.K30076.gnm1.ann1 annotation"/>
       <property name="lis-fasta.dataSetVersion" value="gnm1.ann1"/>
@@ -312,7 +312,7 @@
     <!-- ├── arahy.Tifrunner.gnm1.ann1.CCJH.legfed_v1_0.M65K.gfa.tsv -->
     <!-- ├── arahy.Tifrunner.gnm1.ann1.CCJH.protein.faa -->
     <!-- └── arahy.Tifrunner.gnm1.ann1.CCJH.transcript.fna -->
-    <source name="arahy.Tifrunner.gnm1.ann1.CCJH.gene_models_main.gff3" type="lis-gff" dump="true">
+    <source name="arahy.Tifrunner.gnm1.ann1.CCJH.gene_models_main" type="lis-gff" dump="true">
       <property name="gff3.dataSourceName" value="LIS Datastore"/>
       <property name="gff3.dataSourceUrl" value="https://legumeinfo.org/data/v2/"/>
       <property name="gff3.dataSourceDescription" value="A collaborative, community resource to facilitate crop improvement by integrating genetic, genomic, and trait data across legume species."/>
@@ -325,7 +325,7 @@
       <property name="gff3.strainIdentifier" value="Tifrunner"/>;
       <property name="src.data.dir" location="/data/v2/Arachis/hypogaea/annotations/Tifrunner.gnm1.ann1.CCJH"/>
     </source>
-    <source name="arahy.Tifrunner.gnm1.ann1.CCJH.cds.fna" type="lis-fasta" dump="true">
+    <source name="arahy.Tifrunner.gnm1.ann1.CCJH.cds" type="lis-fasta" dump="true">
       <property name="lis-fasta.dataSetTitle" value="arahy.Tifrunner.gnm1.ann1.CCJH"/>
       <property name="lis-fasta.dataSetUrl" value="https://legumeinfo.org/data/v2/Arachis/hypogaea/annotations/Tifrunner.gnm1.ann1.CCJH/"/>
       <property name="lis-fasta.dataSetDescription" value="arahy.Tifrunner.gnm1.ann1 genome annotation"/>
@@ -339,7 +339,7 @@
       <property name="lis-fasta.includes" value="arahy.Tifrunner.gnm1.ann1.CCJH.cds.fna"/>
       <property name="src.data.dir" location="/data/v2/Arachis/hypogaea/annotations/Tifrunner.gnm1.ann1.CCJH"/>
     </source>
-    <source name="arahy.Tifrunner.gnm1.ann1.CCJH.protein.faa" type="lis-fasta" dump="true">
+    <source name="arahy.Tifrunner.gnm1.ann1.CCJH.protein" type="lis-fasta" dump="true">
       <property name="lis-fasta.dataSetTitle" value="arahy.Tifrunner.gnm1.ann1.CCJH"/>
       <property name="lis-fasta.dataSetUrl" value="https://legumeinfo.org/data/v2/Arachis/hypogaea/annotations/Tifrunner.gnm1.ann1.CCJH/"/>
       <property name="lis-fasta.dataSetDescription" value="arahy.Tifrunner.gnm1.ann1 genome annotation"/>
@@ -353,7 +353,7 @@
       <property name="lis-fasta.includes" value="arahy.Tifrunner.gnm1.ann1.CCJH.protein.faa"/>
       <property name="src.data.dir" location="/data/v2/Arachis/hypogaea/annotations/Tifrunner.gnm1.ann1.CCJH"/>
     </source>
-    <source name="arahy.Tifrunner.gnm1.ann1.CCJH.transcript.fna" type="lis-fasta" dump="true">
+    <source name="arahy.Tifrunner.gnm1.ann1.CCJH.transcript" type="lis-fasta" dump="true">
       <property name="lis-fasta.dataSetTitle" value="arahy.Tifrunner.gnm1.ann1.CCJH"/>
       <property name="lis-fasta.dataSetUrl" value="https://legumeinfo.org/data/v2/Arachis/hypogaea/annotations/Tifrunner.gnm1.ann1.CCJH/"/>
       <property name="lis-fasta.dataSetDescription" value="arahy.Tifrunner.gnm1.ann1 genome annotation"/>
@@ -367,13 +367,13 @@
       <property name="lis-fasta.includes" value="arahy.Tifrunner.gnm1.ann1.CCJH.transcript.fna"/>
       <property name="src.data.dir" location="/data/v2/Arachis/hypogaea/annotations/Tifrunner.gnm1.ann1.CCJH"/>
     </source>
-    <source name="arahy.Tifrunner.gnm1.ann1.CCJH.legfed_v1_0.M65K.gfa.tsv" type="lis-gfa" dump="true"> 
+    <source name="arahy.Tifrunner.gnm1.ann1.CCJH.legfed_v1_0.M65K.gfa" type="lis-gfa" dump="true"> 
       <property name="dataSetTitle" value="arahy.Tifrunner.gnm1.ann1.CCJH"/>
       <property name="dataSetUrl" value="https://legumeinfo.org/data/v2/Arachis/hypogaea/annotations/Tifrunner.gnm1.ann1.CCJH/"/>
       <property name="dataSetDescription" value="arahy.Tifrunner.gnm1.ann1 genome annotation"/>
       <property name="src.data.dir" location="/data/v2/Arachis/hypogaea/annotations/Tifrunner.gnm1.ann1.CCJH"/>
     </source>
-    <source name="arahy.Tifrunner.gnm1.ann1.CCJH.legfed_v1_0.M65K.pathway.tsv" type="lis-pathway" dump="true">
+    <source name="arahy.Tifrunner.gnm1.ann1.CCJH.legfed_v1_0.M65K.pathway" type="lis-pathway" dump="true">
       <property name="dataSetTitle" value="arahy.Tifrunner.gnm1.ann1.CCJH"/>
       <property name="dataSetUrl" value="https://legumeinfo.org/data/v2/Arachis/hypogaea/annotations/Tifrunner.gnm1.ann1.CCJH/"/>
       <property name="dataSetDescription" value="arahy.Tifrunner.gnm1.ann1 genome annotation"/>
@@ -445,7 +445,7 @@
     <!-- ├── arahy.Tifrunner.gnm2.ann1.4K0L.legfed_v1_0.M65K.pathway.tsv -->
     <!-- ├── arahy.Tifrunner.gnm2.ann1.4K0L.protein.faa -->
     <!-- └── arahy.Tifrunner.gnm2.ann1.4K0L.transcript.fna -->
-    <source name="arahy.Tifrunner.gnm2.ann1.4K0L.cds.fna" type="lis-fasta" dump="true">
+    <source name="arahy.Tifrunner.gnm2.ann1.4K0L.cds" type="lis-fasta" dump="true">
       <property name="lis-fasta.dataSetTitle" value="arahy.Tifrunner.gnm2.ann1.4K0L"/>
       <property name="lis-fasta.dataSetDescription" value="arahy.Tifrunner.gnm2.ann1 genome annotation"/>
       <property name="lis-fasta.dataSetUrl" value="https://legumeinfo.org/data/v2/Arachis/hypogaea/Tifrunner.gnm2.ann1.4K0L/"/>
@@ -460,11 +460,11 @@
       <property name="lis-fasta.includes" value="arahy.Tifrunner.gnm2.ann1.4K0L.cds.fna"/>
       <property name="src.data.dir" location="/data/v2/Arachis/hypogaea/Tifrunner.gnm2.ann1.4K0L"/>
     </source>
-    <source name="arahy.Tifrunner.gnm2.ann1.4K0L.gene_models_main.gff3" type="lis-gff" dump="true">
+    <source name="arahy.Tifrunner.gnm2.ann1.4K0L.gene_models_main" type="lis-gff" dump="true">
       <property name="gff3.dataSourceName" value="LIS Datastore"/>
       <property name="gff3.dataSourceUrl" value="https://legumeinfo.org/data/v2/"/>
+      <property name="gff3.dataSetTitle" value="arahy.Tifrunner.gnm2.ann1.4K0L"/>
       <property name="gff3.dataSetDescription" value="arahy.Tifrunner.gnm2.ann1 genome annotation"/>
-      <property name="gff3.dataSetTitle" value="arahy.Tifrunner.gnm2.ann1.4K0L.gene_models_main.gff3"/>
       <property name="gff3.dataSetUrl" value="https://legumeinfo.org/data/v2/Arachis/hypogaea/Tifrunner.gnm2.ann1.4K0L/"/>
       <property name="gff3.dataSetDescription" value="Gene model annotation for the arahy.Tifrunner.gnm2 genome"/>
       <property name="gff3.dataSetVersion" value="gnm2.ann1"/>
@@ -473,7 +473,7 @@
       <property name="gff3.strainIdentifier" value="Tifrunner"/>
       <property name="src.data.dir" location="/data/v2/Arachis/hypogaea/Tifrunner.gnm2.ann1.4K0L"/>
     </source>
-    <source name="arahy.Tifrunner.gnm2.ann1.4K0L.protein.faa" type="lis-fasta" dump="true">
+    <source name="arahy.Tifrunner.gnm2.ann1.4K0L.protein" type="lis-fasta" dump="true">
       <property name="lis-fasta.dataSetTitle" value="arahy.Tifrunner.gnm2.ann1.4K0L"/>
       <property name="lis-fasta.dataSetDescription" value="arahy.Tifrunner.gnm2.ann1 genome annotation"/>
       <property name="lis-fasta.dataSetUrl" value="https://legumeinfo.org/data/v2/Arachis/hypogaea/Tifrunner.gnm2.ann1.4K0L/"/>
@@ -487,7 +487,7 @@
       <property name="lis-fasta.includes" value="arahy.Tifrunner.gnm2.ann1.4K0L.protein.faa"/>
       <property name="src.data.dir" location="/data/v2/Arachis/hypogaea/Tifrunner.gnm2.ann1.4K0L"/>
     </source>
-    <source name="arahy.Tifrunner.gnm2.ann1-mrna-fasta" type="lis-fasta" dump="true">
+    <source name="arahy.Tifrunner.gnm2.ann1.4K0L.transcript" type="lis-fasta" dump="true">
       <property name="lis-fasta.dataSetTitle" value="arahy.Tifrunner.gnm2.ann1.4K0L"/>
       <property name="lis-fasta.dataSetDescription" value="arahy.Tifrunner.gnm2.ann1 genome annotation"/>
       <property name="lis-fasta.dataSetUrl" value="https://legumeinfo.org/data/v2/Arachis/hypogaea/Tifrunner.gnm2.ann1.4K0L/"/>
@@ -501,13 +501,13 @@
       <property name="lis-fasta.includes" value="arahy.Tifrunner.gnm2.ann1.4K0L.transcript.fna"/>
       <property name="src.data.dir" location="/data/v2/Arachis/hypogaea/Tifrunner.gnm2.ann1.4K0L"/>
     </source>
-    <source name="arahy.Tifrunner.gnm2.ann1.4K0L.legfed_v1_0.M65K.gfa.tsv" type="lis-gfa" dump="true"> 
+    <source name="arahy.Tifrunner.gnm2.ann1.4K0L.legfed_v1_0.M65K.gfa" type="lis-gfa" dump="true"> 
       <property name="dataSetName" value="arahy.Tifrunner.gnm2.ann1.4K0L"/>
       <property name="dataSetDescription" value="arahy.Tifrunner.gnm2.ann1 genome annotation"/>
       <property name="dataSetUrl" value="https://legumeinfo.org/data/v2/Arachis/hypogaea/Tifrunner.gnm2.ann1.4K0L/"/>
       <property name="src.data.dir" location="/data/v2/Arachis/hypogaea/Tifrunner.gnm2.ann1.4K0L"/>
     </source>
-    <source name="arahy.Tifrunner.gnm2.ann1.4K0L.legfed_v1_0.M65K.pathway.tsv" type="lis-pathway" dump="true">
+    <source name="arahy.Tifrunner.gnm2.ann1.4K0L.legfed_v1_0.M65K.pathway" type="lis-pathway" dump="true">
       <property name="dataSetName" value="arahy.Tifrunner.gnm2.ann1.4K0L"/>
       <property name="dataSetDescription" value="arahy.Tifrunner.gnm2.ann1 genome annotation"/>
       <property name="dataSetUrl" value="https://legumeinfo.org/data/v2/Arachis/hypogaea/Tifrunner.gnm2.ann1.4K0L/"/>
