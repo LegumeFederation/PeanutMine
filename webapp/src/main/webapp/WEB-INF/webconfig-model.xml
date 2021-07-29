@@ -117,9 +117,9 @@
       <fieldconfig fieldExpr="description" label="Description" />
       <fieldconfig fieldExpr="geneFamily.description" label="Gene family"/>
     </fields>
-    <bagdisplayers>
-      <displayer src="heatMap.tile" showOnLeft="true" />
-    </bagdisplayers>
+    <!-- <bagdisplayers> -->
+    <!--   <displayer src="heatMap.tile" showOnLeft="true" /> -->
+    <!-- </bagdisplayers> -->
   </class>
 
   <!-- extends SequenceFeature; needed for bagdisplayer -->
@@ -505,11 +505,11 @@
                      placement="summary"
                      types="GenotypingStudy"/>
     
-    <reportdisplayer javaClass="org.ncgr.intermine.bio.web.displayer.GeneBarchartDisplayer"
-                     jspName="model/geneBarchartDisplayer.jsp"
-                     replacesFields=""
-                     placement="summary"
-                     types="Gene"/>
+    <!-- <reportdisplayer javaClass="org.ncgr.intermine.bio.web.displayer.GeneBarchartDisplayer" -->
+    <!--                  jspName="model/geneBarchartDisplayer.jsp" -->
+    <!--                  replacesFields="" -->
+    <!--                  placement="summary" -->
+    <!--                  types="Gene"/> -->
 
     <reportdisplayer javaClass="org.ncgr.intermine.bio.web.displayer.GWASDisplayer"
                      jspName="model/gwasDisplayer.jsp"
