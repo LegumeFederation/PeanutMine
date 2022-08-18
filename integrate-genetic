@@ -1,0 +1,24 @@
+#!/bin/sh
+NC='\033[0m'
+LP='\033[1;35m'
+
+echo -e "#################################################################"
+echo -e "############################ ${LP}GENETIC${NC} ############################"
+echo -e "#################################################################"
+
+./gradlew integrate --stacktrace -Psource=Huayu28_x_P76.gen.Hu_Zhang_2018
+./gradlew integrate --stacktrace -Psource=ICGS44_x_ICGS76.gen.Gautami_Pandey_2012
+./gradlew integrate --stacktrace -Psource=ICGS76_x_CSMG84.gen.Gautami_Pandey_2012
+./gradlew integrate --stacktrace -Psource=mixed.gen.Gautami_Pandey_2012
+./gradlew integrate --stacktrace -Psource=mixed.gen.Sujay_Gowda_2012
+./gradlew integrate --stacktrace -Psource=NAMFlor7.gwas.Gangurde_Wang_2020
+./gradlew integrate --stacktrace -Psource=NAMTifr.gwas.Gangurde_Wang_2020
+./gradlew integrate --stacktrace -Psource=TAG24_x_GPBD4.gen.Kolekar_Sujay_2016
+./gradlew integrate --stacktrace -Psource=TAG24_x_ICGV86031.gen.Ravi_Vadez_2011
+./gradlew integrate --stacktrace -Psource=TG26_x_GPBD4.gen.Sarvamanga_Gowdaa_2011
+./gradlew integrate --stacktrace -Psource=TG26_x_GPBD4.gen.Sujay_Gowda_2012
+./gradlew integrate --stacktrace -Psource=Tifrunner_x_GT-C20.gen.Agarwal_Clevenger_2018
+./gradlew integrate --stacktrace -Psource=Tifrunner_x_GT-C20.gen.Qin_Feng_2012
+./gradlew integrate --stacktrace -Psource=Tifrunner_x_GT-C20.gen.Wang_Penmetsa_2012
+./gradlew integrate --stacktrace -Psource=USPeanutCore.gwas.Otyama_Kulkarni_2020
+./gradlew integrate --stacktrace -Psource=VG9514_x_TAG24.gen.Mondal_Hadapad_2014

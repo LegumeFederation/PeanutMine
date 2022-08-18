@@ -1,0 +1,11 @@
+#!/bin/sh
+NC='\033[0m'
+LP='\033[1;35m'
+
+echo -e "#################################################################"
+echo -e "############################ ${LP}MARKERS${NC} ############################"
+echo -e "#################################################################"
+
+./gradlew integrate --stacktrace -Psource=Tifrunner.gnm1.mrk.Agarwal_Clevenger_2018
+./gradlew integrate --stacktrace -Psource=Tifrunner.gnm1.mrk.Axiom_Arachis2
+./gradlew integrate --stacktrace -Psource=Tifrunner.gnm1.mrk.Axiom_Arachis_58K

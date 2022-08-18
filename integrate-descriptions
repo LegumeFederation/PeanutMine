@@ -1,0 +1,10 @@
+#!/bin/sh
+NC='\033[0m'
+LP='\033[1;35m'
+echo -e "#################################################################"
+echo -e "########################## ${LP}DESCRIPTIONS${NC} #########################"
+echo -e "#################################################################"
+
+./gradlew integrate --stacktrace -Psource=Arachis-duranensis-description
+./gradlew integrate --stacktrace -Psource=Arachis-hypogaea-description
+./gradlew integrate --stacktrace -Psource=Arachis-ipaensis-description
