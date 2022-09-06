@@ -11,6 +11,7 @@ echo -e "#################################################################"
 ./gradlew integrate --stacktrace -Psource=ICGS76_x_CSMG84.map.Gautami_Pandey_2012
 ./gradlew integrate --stacktrace -Psource=mixed.map.Gautami_Pandey_2012
 ./gradlew integrate --stacktrace -Psource=mixed.map.Sujay_Gowda_2012
+./gradlew integrate --stacktrace -Psource=SunOleic97R_x_NC94022.map.Qin_Feng_2012
 ./gradlew integrate --stacktrace -Psource=TAG24_x_GPBD4.map.Kolekar_Sujay_2016
 ./gradlew integrate --stacktrace -Psource=TAG24_x_ICGV86031.map.Ravi_Vadez_2011
 ./gradlew integrate --stacktrace -Psource=TG26_x_GPBD4.map.Sarvamanga_Gowdaa_2011
