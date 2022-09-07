@@ -339,11 +339,11 @@
   <class className="org.intermine.model.bio.LinkageGroup">
     <headerconfig>
       <titles>
-        <title mainTitles="identifier" />
+        <title mainTitles="primaryIdentifier" />
       </titles>
     </headerconfig>
     <fields>
-      <fieldconfig fieldExpr="identifier" label="Identifier"/>
+      <fieldconfig fieldExpr="primaryIdentifier" label="Identifier"/>
       <fieldconfig fieldExpr="length" label="Length (cM)" />
     </fields>
     <bagdisplayers>
@@ -539,8 +539,8 @@
 
     <!-- ============================================================================================== -->
 
-    <reportdisplayer javaClass="org.ncgr.intermine.bio.web.displayer.LinkageGroupDisplayer"
-                     jspName="model/linkageGroupDiagram.jsp"
+    <reportdisplayer javaClass="org.ncgr.intermine.bio.web.displayer.GeneticMapDisplayer"
+                     jspName="model/geneticMapDisplayer.jsp"
                      replacesFields="linkageGroups,markers"
                      placement="summary"
                      types="GeneticMap"/>
