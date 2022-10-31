@@ -40,9 +40,17 @@
             <a href="https://legumeinfo.org/"><img src="https://www.legumeinfo.org/assets/img/lis-logo-small.png" alt="LIS - Legume Information System"/></a>
         </div>
         <div style="float:left; margin:5px 10px 0 0; font-family:ProximaNova,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;">
-            <div style="font-size:20px; color:white;">LIS - Legume Information System</div>
-            <div style="font-size:12px; color:white;">Information about legume traits for crop improvement</div>
+            <div style="font-size:20px; color:white;">LIS</div>
+            <div style="font-size:16px; color:white;">Legume Information System</div>
         </div>
+        <!-- PeanutBase -->
+        <div style="float:left; margin:5px;">
+            <a href="https://peanutbase.org/"><img src="model/images/peanutbase_logo.png" alt="PeanutBase"/></a>
+        </div>
+        <div style="float:left; margin:15px 10px 0 0; font-family:ProximaNova,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;">
+            <div style="font-size:20px; color:white;">PeanutBase</div>
+        </div>
+        <!-- /PeanutBase -->
         <!-- /LIS site nav -->
         <a href="${WEB_PROPERTIES['project.sitePrefix']}" alt="Home" rel="NOFOLLOW"><img id="logo" src="model/images/PeanutMine.png" alt="Logo" /></a>
         <h1><html:link href="${WEB_PROPERTIES['project.sitePrefix']}/"><c:out value="${WEB_PROPERTIES['project.title']}" escapeXml="false"/></html:link></h1>
