@@ -23,7 +23,7 @@ dependencies {
 }
 
 dbModelConfig {
-    mineName = "peanutmine"
+    mineName = "arachismine"
     objectStoreName = "os.production"
     modelName = "genomic"
     defaultInterminePropertiesFile = "default.intermine.production.properties"

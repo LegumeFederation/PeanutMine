@@ -1,4 +1,4 @@
-rootProject.name = 'peanutmine'
+rootProject.name = 'arachismine'
 
 include ':dbmodel',':webapp'
 
