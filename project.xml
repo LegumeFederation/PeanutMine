@@ -10,35 +10,35 @@
       <property name="dataSetName" value="Arachis-cardenasii-description" />
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/cardenasii/about_this_collection/" />
       <property name="dataSetDescription" value="Arachis cardenasii organism and strain information." />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/cardenasii/about_this_collection" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/cardenasii/about_this_collection" />
     </source>
     <!-- Arachis/duranensis/about_this_collection -->
     <source name="Arachis-duranensis-description" type="lis-description" dump="true" >
       <property name="dataSetName" value="Arachis-duranensis-description" />
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/duranensis/about_this_collection/" />
       <property name="dataSetDescription" value="Arachis duranensis organism and strain information." />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/duranensis/about_this_collection" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/duranensis/about_this_collection" />
     </source>
     <!-- Arachis/hypogaea/about_this_collection -->
     <source name="Arachis-hypogaea-description" type="lis-description" dump="true" >
       <property name="dataSetName" value="Arachis-hypogaea-description" />
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/about_this_collection/" />
       <property name="dataSetDescription" value="Arachis hypogaea organism and strain information." />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/about_this_collection" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/about_this_collection" />
     </source>
     <!-- Arachis/ipaensis/about_this_collection -->
     <source name="Arachis-ipaensis-description" type="lis-description" dump="true" >
       <property name="dataSetName" value="Arachis-ipaensis-description" />
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/ipaensis/about_this_collection/" />
       <property name="dataSetDescription" value="Arachis ipaensis organism and strain information." />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/ipaensis/about_this_collection" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/ipaensis/about_this_collection" />
     </source>
     <!-- Arachis/stenosperma/about_this_collection -->
     <source name="Arachis-stenosperma-description" type="lis-description" dump="true" >
       <property name="dataSetName" value="Arachis-stenosperma-description" />
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/stenosperma/about_this_collection/" />
       <property name="dataSetDescription" value="Arachis stenosperma organism and strain information." />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/stenosperma/about_this_collection" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/stenosperma/about_this_collection" />
     </source>
 
 
@@ -46,248 +46,262 @@
     <source name="K10017.gnm1.DQ4M" type="lis-genome" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/cardenasii/genomes/K10017.gnm1.DQ4M/" />
       <property name="lis-genome.includes" value="README.K10017.gnm1.DQ4M.yml,araca.K10017.gnm1.DQ4M.genome_main.fna.gz" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/cardenasii/genomes/K10017.gnm1.DQ4M"/>
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/cardenasii/genomes/K10017.gnm1.DQ4M"/>
     </source>
     <!-- Arachis/duranensis/genomes/V14167.gnm1.SWBf -->
     <source name="V14167.gnm1.SWBf" type="lis-genome" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/duranensis/genomes/V14167.gnm1.SWBf/" />
       <property name="lis-genome.includes" value="README.V14167.gnm1.SWBf.yml,aradu.V14167.gnm1.SWBf.genome_main.fna.gz" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/duranensis/genomes/V14167.gnm1.SWBf"/>
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/duranensis/genomes/V14167.gnm1.SWBf"/>
     </source>
     <!-- Arachis/duranensis/genomes/V14167.gnm2.J7QH -->
     <source name="V14167.gnm2.J7QH" type="lis-genome" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/duranensis/genomes/V14167.gnm2.J7QH/" />
       <property name="lis-genome.includes" value="README.V14167.gnm2.J7QH.yml,aradu.V14167.gnm2.J7QH.genome_main.fna.gz" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/duranensis/genomes/V14167.gnm2.J7QH"/>
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/duranensis/genomes/V14167.gnm2.J7QH"/>
+    </source>
+    <!-- Arachis/hypogaea/genomes/BaileyII.gnm1.1JTF -->
+    <source name="BaileyII.gnm1.1JTF" type="lis-genome" dump="true">
+      <property name="lis-genome.className" value="org.intermine.model.bio.Chromosome" />
+      <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/genomes/BaileyII.gnm1.1JTF/" />
+      <property name="lis-genome.includes" value="README.BaileyII.gnm1.1JTF.yml,arahy.BaileyII.gnm1.1JTF.genome_main.fna.gz" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/genomes/BaileyII.gnm1.1JTF"/>
     </source>
     <!-- Arachis/hypogaea/genomes/Fuhuasheng.gnm1.XX5Y -->
     <source name="Fuhuasheng.gnm1.XX5Y" type="lis-genome" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/genomes/Fuhuasheng.gnm1.XX5Y/" />
       <property name="lis-genome.includes" value="README.Fuhuasheng.gnm1.XX5Y.yml,arahy.Fuhuasheng.gnm1.XX5Y.genome_main.fna.gz" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/genomes/Fuhuasheng.gnm1.XX5Y"/>
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/genomes/Fuhuasheng.gnm1.XX5Y"/>
     </source>
     <!-- Arachis/hypogaea/genomes/Shitouqi.gnm1.L4VP -->
     <source name="Shitouqi.gnm1.L4VP" type="lis-genome" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/genomes/Shitouqi.gnm1.L4VP/" />
       <property name="lis-genome.includes" value="README.Shitouqi.gnm1.L4VP.yml,arahy.Shitouqi.gnm1.L4VP.genome_main.fna.gz" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/genomes/Shitouqi.gnm1.L4VP"/>
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/genomes/Shitouqi.gnm1.L4VP"/>
     </source>
     <!-- Arachis/hypogaea/genomes/Tifrunner.gnm1.KYV3 -->
     <source name="Tifrunner.gnm1.KYV3" type="lis-genome" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/genomes/Tifrunner.gnm1.KYV3/" />
       <property name="lis-genome.includes" value="README.Tifrunner.gnm1.KYV3.yml,arahy.Tifrunner.gnm1.KYV3.genome_main.fna.gz" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/genomes/Tifrunner.gnm1.KYV3"/>
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/genomes/Tifrunner.gnm1.KYV3"/>
     </source>
     <!-- Arachis/hypogaea/genomes/Tifrunner.gnm2.J5K5 -->
     <source name="Tifrunner.gnm2.J5K5" type="lis-genome" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/genomes/Tifrunner.gnm2.J5K5/" />
       <property name="lis-genome.includes" value="README.Tifrunner.gnm2.J5K5.yml,arahy.Tifrunner.gnm2.J5K5.genome_main.fna.gz" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/genomes/Tifrunner.gnm2.J5K5"/>
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/genomes/Tifrunner.gnm2.J5K5"/>
     </source>
     <!-- Arachis/ipaensis/genomes/K30076.gnm1.bXJ8 -->
     <source name="K30076.gnm1.bXJ8" type="lis-genome" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/ipaensis/genomes/K30076.gnm1.bXJ8/" />
       <property name="lis-genome.includes" value="README.K30076.gnm1.bXJ8.yml,araip.K30076.gnm1.bXJ8.genome_main.fna.gz" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/ipaensis/genomes/K30076.gnm1.bXJ8"/>
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/ipaensis/genomes/K30076.gnm1.bXJ8"/>
     </source>
     <!-- Arachis/ipaensis/genomes/K30076.gnm2.1GWY -->
     <source name="K30076.gnm2.1GWY" type="lis-genome" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/ipaensis/genomes/K30076.gnm2.1GWY/" />
       <property name="lis-genome.includes" value="README.K30076.gnm2.1GWY.yml,araip.K30076.gnm2.1GWY.genome_main.fna.gz" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/ipaensis/genomes/K30076.gnm2.1GWY"/>
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/ipaensis/genomes/K30076.gnm2.1GWY"/>
     </source>
 
     <!-- Arachis/duranensis/synteny/V14167.gnm1.syn.qmkW -->
     <source name="V14167.gnm1.syn.qmkW" type="lis-synteny" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/duranensis/synteny/V14167.gnm1.syn.qmkW/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/duranensis/synteny/V14167.gnm1.syn.qmkW" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/duranensis/synteny/V14167.gnm1.syn.qmkW" />
     </source>
     <!-- Arachis/ipaensis/synteny/K30076.gnm1.syn.S8s4 -->
     <source name="K30076.gnm1.syn.S8s4" type="lis-synteny" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/ipaensis/synteny/K30076.gnm1.syn.S8s4/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/ipaensis/synteny/K30076.gnm1.syn.S8s4" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/ipaensis/synteny/K30076.gnm1.syn.S8s4" />
     </source>
 
     <!-- Arachis/duranensis/annotations/V14167.gnm1.ann1.cxSM -->
     <source name="V14167.gnm1.ann1.cxSM" type="lis-annotation" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/duranensis/annotations/V14167.gnm1.ann1.cxSM/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/duranensis/annotations/V14167.gnm1.ann1.cxSM"/>
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/duranensis/annotations/V14167.gnm1.ann1.cxSM"/>
+    </source>
+    <!-- Arachis/hypogaea/annotations/BaileyII.gnm1.ann1.PQM7 -->
+    <source name="BaileyII.gnm1.ann1.PQM7" type="lis-annotation" dump="true">
+      <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/annotations/BaileyII.gnm1.ann1.PQM7/" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/annotations/BaileyII.gnm1.ann1.PQM7"/>
     </source>
     <!-- Arachis/hypogaea/annotations/Tifrunner.gnm1.ann1.CCJH -->
     <source name="Tifrunner.gnm1.ann1.CCJH" type="lis-annotation" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/annotations/Tifrunner.gnm1.ann1.CCJH/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/annotations/Tifrunner.gnm1.ann1.CCJH"/>
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/annotations/Tifrunner.gnm1.ann1.CCJH"/>
     </source>
     <!-- Arachis/hypogaea/annotations/Tifrunner.gnm2.ann1.4K0L -->
     <source name="Tifrunner.gnm2.ann1.4K0L" type="lis-annotation" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/annotations/Tifrunner.gnm2.ann1.4K0L/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/annotations/Tifrunner.gnm2.ann1.4K0L"/>
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/annotations/Tifrunner.gnm2.ann1.4K0L"/>
+    </source>
+    <!-- Arachis/hypogaea/annotations/Tifrunner.gnm2.ann2.PVFB -->
+    <source name="Tifrunner.gnm2.ann2.PVFB" type="lis-annotation" dump="true">
+      <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/annotations/Tifrunner.gnm2.ann2.PVFB/" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/annotations/Tifrunner.gnm2.ann2.PVFB"/>
     </source>
     <!-- Arachis/ipaensis/annotations/K30076.gnm1.ann1.J37m -->
     <source name="K30076.gnm1.ann1.J37m" type="lis-annotation" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/ipaensis/annotations/K30076.gnm1.ann1.J37m/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/ipaensis/annotations/K30076.gnm1.ann1.J37m"/>
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/ipaensis/annotations/K30076.gnm1.ann1.J37m"/>
     </source>
 
     
     <!-- Arachis/hypogaea/markers/Tifrunner.gnm1.mrk.Agarwal_Clevenger_2018 -->
     <source name="Tifrunner.gnm1.mrk.Agarwal_Clevenger_2018" type="lis-markers" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/markers/Tifrunner.gnm1.mrk.Agarwal_Clevenger_2018/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/markers/Tifrunner.gnm1.mrk.Agarwal_Clevenger_2018" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/markers/Tifrunner.gnm1.mrk.Agarwal_Clevenger_2018" />
     </source>
     <!-- Arachis/hypogaea/markers/Tifrunner.gnm1.mrk.Axiom_Arachis2 -->
     <source name="Tifrunner.gnm1.mrk.Axiom_Arachis2" type="lis-markers" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/markers/Tifrunner.gnm1.mrk.Axiom_Arachis2/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/markers/Tifrunner.gnm1.mrk.Axiom_Arachis2" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/markers/Tifrunner.gnm1.mrk.Axiom_Arachis2" />
     </source>
     <!-- Arachis/hypogaea/markers/Tifrunner.gnm1.mrk.Axiom_Arachis_58K -->
     <source name="Tifrunner.gnm1.mrk.Axiom_Arachis_58K" type="lis-markers" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/markers/Tifrunner.gnm1.mrk.Axiom_Arachis_58K/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/markers/Tifrunner.gnm1.mrk.Axiom_Arachis_58K" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/markers/Tifrunner.gnm1.mrk.Axiom_Arachis_58K" />
     </source>
 
     <!-- Arachis/hypogaea/gwas/NAMFlor7.gwas.Gangurde_Wang_2020 -->
     <source name="NAMFlor7.gwas.Gangurde_Wang_2020" type="lis-gwas" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/gwas/NAMFlor7.gwas.Gangurde_Wang_2020/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/gwas/NAMFlor7.gwas.Gangurde_Wang_2020" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/gwas/NAMFlor7.gwas.Gangurde_Wang_2020" />
     </source>
     <!-- Arachis/hypogaea/gwas/NAMTifr.gwas.Gangurde_Wang_2020 -->
     <source name="NAMTifr.gwas.Gangurde_Wang_2020" type="lis-gwas" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/gwas/NAMTifr.gwas.Gangurde_Wang_2020/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/gwas/NAMTifr.gwas.Gangurde_Wang_2020" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/gwas/NAMTifr.gwas.Gangurde_Wang_2020" />
     </source>
     <!-- Arachis/hypogaea/gwas/USPeanutCore.gwas.Otyama_Kulkarni_2020 -->
     <source name="USPeanutCore.gwas.Otyama_Kulkarni_2020" type="lis-gwas" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/gwas/USPeanutCore.gwas.Otyama_Kulkarni_2020/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/gwas/USPeanutCore.gwas.Otyama_Kulkarni_2020" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/gwas/USPeanutCore.gwas.Otyama_Kulkarni_2020" />
     </source>
 
     <!-- Arachis/duranensis/maps/PI475887_x_Grif15036.map.Nagy_Guo_2012 -->
     <source name="PI475887_x_Grif15036.map.Nagy_Guo_2012" type="lis-map" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/duranensis/maps/PI475887_x_Grif15036.map.Nagy_Guo_2012/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/duranensis/maps/PI475887_x_Grif15036.map.Nagy_Guo_2012" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/duranensis/maps/PI475887_x_Grif15036.map.Nagy_Guo_2012" />
     </source>
     <!-- Arachis/hypogaea/maps/Huayu28_x_P76.map.Hu_Zhang_2018 -->
     <source name="Huayu28_x_P76.map.Hu_Zhang_2018" type="lis-map" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/maps/Huayu28_x_P76.map.Hu_Zhang_2018/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/maps/Huayu28_x_P76.map.Hu_Zhang_2018" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/maps/Huayu28_x_P76.map.Hu_Zhang_2018" />
     </source>
     <!-- Arachis/hypogaea/maps/ICGS44_x_ICGS76.map.Gautami_Pandey_2012 -->
     <source name="ICGS44_x_ICGS76.map.Gautami_Pandey_2012" type="lis-map" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/maps/ICGS44_x_ICGS76.map.Gautami_Pandey_2012/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/maps/ICGS44_x_ICGS76.map.Gautami_Pandey_2012" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/maps/ICGS44_x_ICGS76.map.Gautami_Pandey_2012" />
     </source>
     <!-- Arachis/hypogaea/maps/ICGS76_x_CSMG84.map.Gautami_Pandey_2012 -->
     <source name="ICGS76_x_CSMG84.map.Gautami_Pandey_2012" type="lis-map" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/maps/ICGS76_x_CSMG84.map.Gautami_Pandey_2012/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/maps/ICGS76_x_CSMG84.map.Gautami_Pandey_2012" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/maps/ICGS76_x_CSMG84.map.Gautami_Pandey_2012" />
     </source>
     <!-- Arachis/hypogaea/maps/mixed.map.Gautami_Pandey_2012 -->
     <source name="mixed.map.Gautami_Pandey_2012" type="lis-map" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/maps/mixed.map.Gautami_Pandey_2012/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/maps/mixed.map.Gautami_Pandey_2012" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/maps/mixed.map.Gautami_Pandey_2012" />
     </source>
     <!-- Arachis/hypogaea/maps/mixed.map.Sujay_Gowda_2012 -->
     <source name="mixed.map.Sujay_Gowda_2012" type="lis-map" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/maps/mixed.map.Sujay_Gowda_2012/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/maps/mixed.map.Sujay_Gowda_2012" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/maps/mixed.map.Sujay_Gowda_2012" />
     </source>
     <!-- Arachis/hypogaea/maps/SunOleic97R_x_NC94022.map.Qin_Feng_2012 -->
     <source name="SunOleic97R_x_NC94022.map.Qin_Feng_2012" type="lis-map" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/maps/SunOleic97R_x_NC94022.map.Qin_Feng_2012/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/maps/SunOleic97R_x_NC94022.map.Qin_Feng_2012" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/maps/SunOleic97R_x_NC94022.map.Qin_Feng_2012" />
     </source>
     <!-- Arachis/hypogaea/maps/TAG24_x_GPBD4.map.Kolekar_Sujay_2016 -->
     <source name="TAG24_x_GPBD4.map.Kolekar_Sujay_2016" type="lis-map" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/maps/TAG24_x_GPBD4.map.Kolekar_Sujay_2016/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/maps/TAG24_x_GPBD4.map.Kolekar_Sujay_2016" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/maps/TAG24_x_GPBD4.map.Kolekar_Sujay_2016" />
     </source>
     <!-- Arachis/hypogaea/maps/TAG24_x_ICGV86031.map.Ravi_Vadez_2011 -->
     <source name="TAG24_x_ICGV86031.map.Ravi_Vadez_2011" type="lis-map" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/maps/TAG24_x_ICGV86031.map.Ravi_Vadez_2011/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/maps/TAG24_x_ICGV86031.map.Ravi_Vadez_2011" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/maps/TAG24_x_ICGV86031.map.Ravi_Vadez_2011" />
     </source>
     <!-- Arachis/hypogaea/maps/TG26_x_GPBD4.map.Sarvamanga_Gowdaa_2011 -->
     <source name="TG26_x_GPBD4.map.Sarvamanga_Gowdaa_2011" type="lis-map" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/maps/TG26_x_GPBD4.map.Sarvamanga_Gowdaa_2011/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/maps/TG26_x_GPBD4.map.Sarvamanga_Gowdaa_2011" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/maps/TG26_x_GPBD4.map.Sarvamanga_Gowdaa_2011" />
     </source>
     <!-- Arachis/hypogaea/maps/TG26_x_GPBD4.map.Sujay_Gowda_2012 -->
     <source name="TG26_x_GPBD4.map.Sujay_Gowda_2012" type="lis-map" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/maps/TG26_x_GPBD4.map.Sujay_Gowda_2012/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/maps/TG26_x_GPBD4.map.Sujay_Gowda_2012" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/maps/TG26_x_GPBD4.map.Sujay_Gowda_2012" />
     </source>
     <!-- Arachis/hypogaea/maps/Tifrunner_x_GT-C20.map.Agarwal_Clevenger_2018 -->
     <source name="Tifrunner_x_GT-C20.map.Agarwal_Clevenger_2018" type="lis-map" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/maps/Tifrunner_x_GT-C20.map.Agarwal_Clevenger_2018/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/maps/Tifrunner_x_GT-C20.map.Agarwal_Clevenger_2018" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/maps/Tifrunner_x_GT-C20.map.Agarwal_Clevenger_2018" />
     </source>
     <!-- Arachis/hypogaea/maps/Tifrunner_x_GT-C20.map.Qin_Feng_2012 -->
     <source name="Tifrunner_x_GT-C20.map.Qin_Feng_2012" type="lis-map" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/maps/Tifrunner_x_GT-C20.map.Qin_Feng_2012/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/maps/Tifrunner_x_GT-C20.map.Qin_Feng_2012" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/maps/Tifrunner_x_GT-C20.map.Qin_Feng_2012" />
     </source>
     <!-- Arachis/hypogaea/maps/Tifrunner_x_GT-C20.map.Wang_Penmetsa_2012 -->
     <source name="Tifrunner_x_GT-C20.map.Wang_Penmetsa_2012" type="lis-map" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/maps/Tifrunner_x_GT-C20.map.Wang_Penmetsa_2012/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/maps/Tifrunner_x_GT-C20.map.Wang_Penmetsa_2012" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/maps/Tifrunner_x_GT-C20.map.Wang_Penmetsa_2012" />
     </source>
     <!-- Arachis/hypogaea/maps/VG9514_x_TAG24.map.Mondal_Hadapad_2014 -->
     <source name="VG9514_x_TAG24.map.Mondal_Hadapad_2014" type="lis-map" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/maps/VG9514_x_TAG24.map.Mondal_Hadapad_2014/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/maps/VG9514_x_TAG24.map.Mondal_Hadapad_2014" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/maps/VG9514_x_TAG24.map.Mondal_Hadapad_2014" />
     </source>
 
     <!-- Arachis/hypogaea/qtl/Huayu28_x_P76.qtl.Hu_Zhang_2018 -->
     <source name="Huayu28_x_P76.qtl.Hu_Zhang_2018" type="lis-qtl" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/qtl/Huayu28_x_P76.qtl.Hu_Zhang_2018/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/qtl/Huayu28_x_P76.qtl.Hu_Zhang_2018" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/qtl/Huayu28_x_P76.qtl.Hu_Zhang_2018" />
     </source>
     <!-- Arachis/hypogaea/qtl/SunOleic97R_x_NC94022.qtl.Qin_Feng_2012 -->
     <source name="SunOleic97R_x_NC94022.qtl.Qin_Feng_2012" type="lis-qtl" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/qtl/SunOleic97R_x_NC94022.qtl.Qin_Feng_2012/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/qtl/SunOleic97R_x_NC94022.qtl.Qin_Feng_2012" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/qtl/SunOleic97R_x_NC94022.qtl.Qin_Feng_2012" />
     </source>
     <!-- Arachis/hypogaea/qtl/TAG24_x_GPBD4.qtl.Kolekar_Sujay_2016 -->
     <source name="TAG24_x_GPBD4.qtl.Kolekar_Sujay_2016" type="lis-qtl" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/qtl/TAG24_x_GPBD4.qtl.Kolekar_Sujay_2016/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/qtl/TAG24_x_GPBD4.qtl.Kolekar_Sujay_2016" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/qtl/TAG24_x_GPBD4.qtl.Kolekar_Sujay_2016" />
     </source>
     <!-- Arachis/hypogaea/qtl/TG26_x_GPBD4.qtl.Sarvamanga_Gowdaa_2011 -->
     <source name="TG26_x_GPBD4.qtl.Sarvamanga_Gowdaa_2011" type="lis-qtl" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/qtl/TG26_x_GPBD4.qtl.Sarvamanga_Gowdaa_2011/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/qtl/TG26_x_GPBD4.qtl.Sarvamanga_Gowdaa_2011" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/qtl/TG26_x_GPBD4.qtl.Sarvamanga_Gowdaa_2011" />
     </source>
     <!-- Arachis/hypogaea/qtl/Tifrunner_x_GT-C20.qtl.Agarwal_Clevenger_2018 -->
     <source name="Tifrunner_x_GT-C20.qtl.Agarwal_Clevenger_2018" type="lis-qtl" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/qtl/Tifrunner_x_GT-C20.qtl.Agarwal_Clevenger_2018/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/qtl/Tifrunner_x_GT-C20.qtl.Agarwal_Clevenger_2018" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/qtl/Tifrunner_x_GT-C20.qtl.Agarwal_Clevenger_2018" />
     </source>
     <!-- Arachis/hypogaea/qtl/Tifrunner_x_GT-C20.qtl.Qin_Feng_2012 -->
     <source name="Tifrunner_x_GT-C20.qtl.Qin_Feng_2012" type="lis-qtl" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/qtl/Tifrunner_x_GT-C20.qtl.Qin_Feng_2012/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/qtl/Tifrunner_x_GT-C20.qtl.Qin_Feng_2012" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/qtl/Tifrunner_x_GT-C20.qtl.Qin_Feng_2012" />
     </source>
     <!-- Arachis/hypogaea/qtl/Tifrunner_x_GT-C20.qtl.Wang_Penmetsa_2012 -->
     <source name="Tifrunner_x_GT-C20.qtl.Wang_Penmetsa_2012" type="lis-qtl" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/qtl/Tifrunner_x_GT-C20.qtl.Wang_Penmetsa_2012/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/qtl/Tifrunner_x_GT-C20.qtl.Wang_Penmetsa_2012" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/qtl/Tifrunner_x_GT-C20.qtl.Wang_Penmetsa_2012" />
     </source>
     <!-- Arachis/hypogaea/qtl/VG9514_x_TAG24.qtl.Mondal_Hadapad_2014 -->
     <source name="VG9514_x_TAG24.qtl.Mondal_Hadapad_2014" type="lis-qtl" dump="true">
       <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/qtl/VG9514_x_TAG24.qtl.Mondal_Hadapad_2014/" />
-      <property name="src.data.dir" location="/home/shokin/data/v2/Arachis/hypogaea/qtl/VG9514_x_TAG24.qtl.Mondal_Hadapad_2014" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/qtl/VG9514_x_TAG24.qtl.Mondal_Hadapad_2014" />
     </source>
 
-
-    <!-- ############### ONTOLOGIES etc. ############### -->
-    
     <!-- LIS gene families -->
     <source name="legume.genefam.fam1.M65K" type="lis-genefamily" dump="true">
       <property name="dataSetName" value="legume.genefam.fam1.M65K"/>
       <property name="dataSetUrl" value="https://data.legumeinfo.org/LEGUMES/Fabaceae/genefamilies/legume.genefam.fam1.M65K/" />
       <property name="dataSetDescription" value="LIS gene families"/>
-      <property name="src.data.dir" location="/home/shokin/data/v2/LEGUMES/Fabaceae/genefamilies/legume.genefam.fam1.M65K"/>
+      <property name="src.data.dir" location="/home/shokin/v2/LEGUMES/Fabaceae/genefamilies/legume.genefam.fam1.M65K"/>
     </source>
 
     <!-- LIS gene family trees -->
@@ -295,32 +309,34 @@
       <property name="dataSetName" value="legume.genefam.fam1.M65K.trees_ML_rooted"/>
       <property name="dataSetUrl" value="https://data.legumeinfo.org/LEGUMES/Fabaceae/genefamilies/legume.genefam.fam1.M65K/legume.genefam.fam1.M65K.trees_ML_rooted/" />
       <property name="dataSetDescription" value="LIS gene family phylogenetic trees"/>
-      <property name="src.data.dir" location="/home/shokin/data/v2/LEGUMES/Fabaceae/genefamilies/legume.genefam.fam1.M65K/legume.genefam.fam1.M65K.trees_ML_rooted"/>
+      <property name="src.data.dir" location="/home/shokin/v2/LEGUMES/Fabaceae/genefamilies/legume.genefam.fam1.M65K/legume.genefam.fam1.M65K.trees_ML_rooted"/>
     </source>
 
+    <!-- ############### NON-LIS ############### -->
+    
     <!-- InterPro -->
     <source name="interpro" type="interpro">
-      <property name="src.data.dir" location="/data/InterPro/"/>
+      <property name="src.data.dir" location="/home/shokin/data/InterPro/"/>
     </source>
 
     <!-- InterPro2GO -->
     <source name="interpro-go" type="interpro-go">
-      <property name="src.data.dir" location="/data/InterPro/ontology/"/>
+      <property name="src.data.dir" location="/home/shokin/data/InterPro/ontology/"/>
     </source>
 
     <!-- Pfam terms -->
     <source name="pfam-term" type="pfam-term">
-      <property name="src.data.dir" location="/data/Pfam/"/>
+      <property name="src.data.dir" location="/home/shokin/data/Pfam/"/>
     </source>
 
     <!-- PANTHER terms -->
     <source name="panther-term" type="panther-term">
-      <property name="src.data.dir" location="/data/PANTHER/"/>
+      <property name="src.data.dir" location="/home/shokin/data/PANTHER/"/>
     </source>
 
     <!-- plant ontology -->
     <source name="plant-ontology" type="obo">
-      <property name="src.data.file" location="/data/plant-ontology/po.obo"/>
+      <property name="src.data.file" location="/home/shokin/data/plant-ontology/po.obo"/>
       <property name="ontology.prefix" value="PO"/>
       <property name="obo.ontology.name" value="Plant Ontology"/>
       <property name="obo.ontology.url" value="http://planteome.org/" />
@@ -330,7 +346,7 @@
 
     <!-- plant trait ontology -->
     <source name="plant-trait-ontology" type="obo">
-      <property name="src.data.file" location="/data/plant-trait-ontology/to.obo"/>
+      <property name="src.data.file" location="/home/shokin/data/plant-trait-ontology/to.obo"/>
       <property name="ontology.prefix" value="TO"/>
       <property name="obo.ontology.name" value="Plant Trait Ontology"/>
       <property name="obo.ontology.url" value="http://www.obofoundry.org/ontology/to.html"/>
@@ -340,17 +356,17 @@
     
     <!-- gene ontology -->
     <source name="go" type="go">
-      <property name="src.data.file" location="/data/gene-ontology/go-basic.obo"/>
+      <property name="src.data.file" location="/home/shokin/data/gene-ontology/go-basic.obo"/>
     </source>
 
     <!-- sequence ontology -->
     <source name="so" type="so">
-      <property name="src.data.file" location="/data/SO-Ontologies/Ontology_Files/so-simple.obo"/>
+      <property name="src.data.file" location="/home/shokin/data/SO-Ontologies/Ontology_Files/so-simple.obo"/>
     </source>
 
     <!-- ChEBI -->
     <source name="chebi-ontology" type="obo">
-      <property name="src.data.file" location="/data/ChEBI/chebi_lite.obo"/>
+      <property name="src.data.file" location="/home/shokin/data/ChEBI/chebi_lite.obo"/>
       <property name="ontology.prefix" value="CHEBI"/>
       <property name="obo.ontology.name" value="Chemical Entities of Biological Interest (ChEBI)"/>
       <property name="obo.ontology.url" value="https://www.ebi.ac.uk/chebi/init.do"/>
@@ -375,7 +391,6 @@
     <post-process name="create-gene-flanking-features"/>
 
     <!-- LIS -->
-    <post-process name="lis-populate-publications"/>
     <post-process name="lis-create-genefamilytally"/>
     <post-process name="lis-populate-gwasresult-markers"/>
     <post-process name="lis-populate-marker-linkagegrouppositions"/>
