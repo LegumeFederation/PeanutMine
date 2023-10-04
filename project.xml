@@ -296,6 +296,15 @@
       <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/qtl/VG9514_x_TAG24.qtl.Mondal_Hadapad_2014" />
     </source>
 
+
+    <!-- Arachis/hypogaea/expression/Tifrunner.gnm2.ann2.expr.Tifrunner.Clevenger_2016 -->
+    <source name="Tifrunner.gnm2.ann2.expr.Tifrunner.Clevenger_2016" type="lis-expression" dump="true">
+      <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/hypogaea/expression/Tifrunner.gnm2.ann2.expr.Tifrunner.Clevenger_2016/" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/hypogaea/expression/Tifrunner.gnm2.ann2.expr.Tifrunner.Clevenger_2016" />
+    </source>
+
+
+
     <!-- LIS gene families -->
     <source name="legume.genefam.fam1.M65K" type="lis-genefamily" dump="true">
       <property name="dataSetName" value="legume.genefam.fam1.M65K"/>
