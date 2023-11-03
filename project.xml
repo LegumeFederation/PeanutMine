@@ -321,10 +321,10 @@
       <property name="src.data.dir" location="/home/shokin/v2/LEGUMES/Fabaceae/genefamilies/legume.genefam.fam1.M65K/legume.genefam.fam1.M65K.trees_ML_rooted"/>
     </source>
 
-    <!-- Arachis/GENUS/pangenes/Arachis.pan1.4LN9 -->
-    <source name="Arachis.pan1.4LN9" type="lis-pangene" dump="true">
-      <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/GENUS/pngenes/Arachis.pan1.4LN9/" />
-      <property name="src.data.dir" location="/home/shokin/v2/Arachis/GENUS/pangenes/Arachis.pan1.4LN9"/>
+    <!-- Arachis/GENUS/pangenes/Arachis.pan2.5P1K -->
+    <source name="Arachis.pan2.5P1K" type="lis-pangene" dump="true">
+      <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/GENUS/pangenes/Arachis.pan2.5P1K/" />
+      <property name="src.data.dir" location="/home/shokin/v2/Arachis/GENUS/pangenes/Arachis.pan2.5P1K"/>
     </source>
     
     <!-- ############### NON-LIS ############### -->
@@ -422,4 +422,3 @@
   </post-processing>
 
 </project>
-
