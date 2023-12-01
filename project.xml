@@ -97,12 +97,12 @@
       <property name="lis-genome.includes" value="README.K30076.gnm1.bXJ8.yml,araip.K30076.gnm1.bXJ8.genome_main.fna.gz" />
       <property name="src.data.dir" location="/home/shokin/v2/Arachis/ipaensis/genomes/K30076.gnm1.bXJ8"/>
     </source>
-    <!-- Arachis/ipaensis/genomes/K30076.gnm2.1GWY -->
-    <source name="K30076.gnm2.1GWY" type="lis-genome" dump="true">
-      <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/ipaensis/genomes/K30076.gnm2.1GWY/" />
-      <property name="lis-genome.includes" value="README.K30076.gnm2.1GWY.yml,araip.K30076.gnm2.1GWY.genome_main.fna.gz" />
-      <property name="src.data.dir" location="/home/shokin/v2/Arachis/ipaensis/genomes/K30076.gnm2.1GWY"/>
-    </source>
+    <!-- <!-\- Arachis/ipaensis/genomes/K30076.gnm2.1GWY -\-> -->
+    <!-- <source name="K30076.gnm2.1GWY" type="lis-genome" dump="true"> -->
+    <!--   <property name="dataSetUrl" value="https://data.legumeinfo.org/Arachis/ipaensis/genomes/K30076.gnm2.1GWY/" /> -->
+    <!--   <property name="lis-genome.includes" value="README.K30076.gnm2.1GWY.yml,araip.K30076.gnm2.1GWY.genome_main.fna.gz" /> -->
+    <!--   <property name="src.data.dir" location="/home/shokin/v2/Arachis/ipaensis/genomes/K30076.gnm2.1GWY"/> -->
+    <!-- </source> -->
 
     <!-- Arachis/duranensis/synteny/V14167.gnm1.syn.qmkW -->
     <source name="V14167.gnm1.syn.qmkW" type="lis-synteny" dump="true">
@@ -403,14 +403,20 @@
     <post-process name="create-intergenic-region-features"/>
     <post-process name="populate-child-features"/>
     <post-process name="create-gene-flanking-features"/>
+    <!-- transfer-sequences LAST! -->
     <post-process name="transfer-sequences"/>
 
     <!-- LIS -->
+    <post-process name="lis-remove-orphans"/>
     <post-process name="lis-create-genefamilytally"/>
-    <post-process name="lis-populate-gwasresult-markers"/>
+    <post-process name="lis-create-pathways"/>
+    <post-process name="lis-populate-protein-transcript-attributes"/>
+    <post-process name="lis-populate-pangeneset-genes-proteins"/>
     <post-process name="lis-populate-marker-linkagegrouppositions"/>
-    <post-process name="lis-populate-qtl-genes"/>
+    <post-process name="lis-populate-gwasresult-markers"/>
     <post-process name="lis-populate-qtl-markers"/>
+    <!-- populate-qtl-genes AFTER populate-qtl-markers! -->
+    <post-process name="lis-populate-qtl-genes"/>
     
     <!-- VIEWS AND INDEXES -->
     <post-process name="create-location-overlap-index"/>
